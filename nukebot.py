@@ -8,8 +8,8 @@ import asyncio
 token = "BOTTOKENHERE"
 
 
-SPAM_CHANNEL =  ["nigga"]
-SPAM_MESSAGE = ["@everyone fucked by ilijas#1337  ihr nigga@here"]
+SPAM_CHANNEL =  [" "]
+SPAM_MESSAGE = ["  "]
 
 client = commands.Bot(command_prefix="!")
 
@@ -27,7 +27,7 @@ async def on_ready():
 
 Support Server: https://discord.gg/FrxWWtjueA
  ''')
-   await client.change_presence(activity=discord.Game(name="made by ilias#1337"))
+   await client.change_presence(activity=discord.Game(name=" "))
 
 @client.command()
 @commands.is_owner()
